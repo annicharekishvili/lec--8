@@ -1,0 +1,41 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 90%;
+  background-color: coral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+  /* flex-wrap: wrap; */
+  height: 400px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  font-size: 24px;
+  color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 20px 0; */
+}
+
+.box-2 {
+  background-color: lightgreen;
+  /* flex-grow: 4; */
+  width: 400px;
+  flex-shrink: 4;
+}
+
+.box-3 {
+  background-color: lightpink;
+  /* flex-grow: 2; */
+}
+
+.fa-facebook {
+  color: #3b5998;
+  font-size: 30px;
+}
